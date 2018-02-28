@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  color: white;
+}
+
+#bg {
+  background-color: #8A2D3C;
+}
+
+#appDescription {
+  font-size: 275%;
+}
+
+#topOffset {
+  margin-top: 4%;
+}
+
+#controlOffset {
+  margin-top: 3%;
+}
+
+#timerOffset {
+  margin-top: 2%;
+}
+
+#timerDisplay {
+  background-color: #2C3E50;
+  transition: background 60s linear;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+  border-radius: 2em;
+}
+
+#timerDisplay h1 {
+  font-size: 500%;
+  user-select: none;
+}
+
+.valueControl {
+  background-color: #2C3E50;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+  border-radius: 2em;
+  user-select: none;
+}
+
+.values {
+  font-size: 200%;
+}

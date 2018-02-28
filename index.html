@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- Pomodoro web app
+    Demonstration project using HTML5, CSS3, Bootstrap, jQuery
+
+    Simple pomodoro session timer app
+
+    Mark Allen: Freelance Web Developer - 2017
+-->
+
+<html>
+<head>
+  <title>Pomodoro WebApp</title>
+  <!-- Load script, stylesheet, Bootstrap 3 and jQuery 3 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body id="bg">
+  <!-- Audio file for end of session/break alarm -->
+  <audio id="bells">
+    <source src="media/templebell.mp3" />
+  </audio>
+  <div class="container">
+    <!-- Page heading -->
+    <div class="row" id="topOffset">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6 text-center">
+        <h1 id="appDescription">POMODORO SESSION TIMER</h1>
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+    <!-- Timer controls -->
+    <div class="row" id="controlOffset">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-3 text-center">
+        <h3>Break Length</h3>
+      </div>
+      <div class="col-sm-3 text-center">
+        <h3>Session Length</h3>
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-1 text-center">
+        <h3 class="valueControl" id="breakMinus">-</h3>
+      </div>
+      <div class="col-sm-1 text-center">
+        <strong><h3 class="values" id="breakValue">5:00</h3></strong>
+      </div>
+      <div class="col-sm-1 text-center">
+        <h3 class="valueControl" id="breakPlus">+</h3>
+      </div>
+      <div class="col-sm-1 text-center">
+        <h3 class="valueControl" id="sessionMinus">-</h3>
+      </div>
+      <div class="col-sm-1 text-center">
+        <strong><h3 class="values" id="sessionValue">25:00</h3></strong>
+      </div>
+      <div class="col-sm-1 text-center">
+        <h3 class="valueControl" id="sessionPlus">+</h3>
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+    <!-- Timer display -->
+    <div class="row" id="timerOffset">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6 text-center" id="timerDisplay">
+        <strong><h1 id="timerCount">25:00</h1></strong>
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+  </div>
+</body>
+</html>
