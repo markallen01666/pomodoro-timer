@@ -6,4 +6,3 @@ Resources: HTML5, CSS3, Bootstrap 3, Javascript, jQuery.
 
 Notes: This is one of the advanced challenges included in the FCC Front-End Web Developer certification course. The requirement was to build a Pomodoro timer to provide a session and break timer.
 
-Link: http://markallenwebdeveloper.co.uk/portfolio/pomodoro/
